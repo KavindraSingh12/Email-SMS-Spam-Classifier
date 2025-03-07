@@ -64,7 +64,3 @@ if st.button('Predict', key='predict_button'):
             st.success("**Result:** This message is classified as **Not Spam**. ✅")
     else:
         st.warning("Please enter a message to classify.")
-
-# Optional: Add footer with additional information or links
-st.markdown("---")
-st.markdown("Created by [Manohar Singh](#) | [ManoharSingh1311](https://github.com/ManoharSingh1311) | [Contact](+91 6399121342)")
